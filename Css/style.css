@@ -1,0 +1,83 @@
+:root{
+   --white-color:white;
+   --red-color:darkorange;
+   --black-color:black;
+   --back-icon-box-color:rgb(206, 201, 201);
+
+
+
+}
+*{
+   text-transform: capitalize;
+  
+   /* color:darkorange; */
+}
+span {
+  color: var(--red-color);
+  font-size: 20px;
+}
+
+/* start nav ***************************/
+
+
+.nav{
+   background-image: url(../imag/pexels-vev.jpg);
+   width: 100%;height: 1000px;
+   background-size: cover;
+  
+   
+   display: flex;
+   justify-content: space-around;
+   padding-top: 30px;
+  
+}
+.icon-title{
+ color: var(--red-color);
+ margin-left: 5px;
+}
+.title{
+   color: var(--white-color);
+}
+.title h1{
+   padding-top: 90px;
+}
+
+.title button{
+   margin-top: 90px;
+   padding: 20px;
+   border: none;
+   background-color: var(--white-color);
+  /* box-shadow: 2px 2px 3px 5px var(--red-color); */
+}
+.title button a{
+   color: var(--red-color);
+}
+
+.section a{
+   text-decoration: none;
+   color: var(--red-color);
+   padding-left: 60px;
+   
+}
+/* end nav ***************************/
+ /* start Contact-us  *****************************************************/
+ 
+ .Contact-us{
+   display: flex;
+   justify-content: space-around;
+   width: 100%;height: 300px;
+   background-color: var(--red-color);
+}
+.Contact-us p{
+  padding-left: 25px;
+}
+.icon-connect-contact-us{
+  padding-left: 25px;
+ 
+}
+.icon-connect{
+  font-size: 20px;
+   margin: 5px;
+  color: var(--white-color);
+}
+/* end Contact-us  *****************************************************/

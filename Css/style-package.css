@@ -1,0 +1,186 @@
+:root{
+    --white-color:white;
+    --red-color:darkorange;
+    --black-color:black;
+    --back-icon-box-color:rgb(206, 201, 201);
+ 
+ 
+ 
+ }
+ *{
+    text-transform: capitalize;
+   
+    /* color:darkorange; */
+ }
+ span {
+   color: var(--red-color);
+   font-size: 20px;
+ }
+ 
+/* start nav *************************************************************/
+ .nav{
+    background-color: var(--white-color);
+    width: 100%;height: 100px;
+    box-shadow: 0px 1px 3px var(--black-color) ;
+    background-size: cover;
+   
+    
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    color: var(--black-color);
+   
+ }
+ .title h1{
+  padding-top: 100px;
+ }
+ .icon-title{
+  color: var(--red-color);
+  margin-left: 5px;
+ }
+ .package {
+    box-shadow: 2px 2px 3px 5px var(--red-color);
+    padding: 20px;
+ }
+ .section {
+    text-decoration: none;
+    color: var(--red-color);
+   
+    height: 30px;
+ 
+ } 
+ .section a{
+    text-decoration: none;
+    color: var(--red-color);
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 30px;
+ 
+ } 
+/* end nav *****************************************************/
+/* start box body ******************************************************/  
+.box-body{
+    width: 100%;
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    
+}
+.bow-body-package{
+    width: 250px; 
+    height: 300px;
+    outline: 1px solid var(--red-color);
+    text-align: center;
+    padding-top: 40px;
+    
+    margin: 20px;
+}
+.icon-box{
+    color: var(--red-color);
+    /* background-color:var(--back-icon-box-color) ; */
+    padding: 20px;
+    font-size: 40px;
+}
+/* end box body ******************************************************/
+/*start price-package *******************************************************/ 
+.price-package{
+    width: 100%;
+   margin: 5px;
+   display: flex;
+   justify-content: center;
+}
+.h1-price-package{
+    text-align: center;
+  
+}
+
+.box-package{
+  
+
+   
+}
+.box-p{
+    width: 500px;
+    height: 600px;
+ 
+    background-image: url(../imag/pexels-daniel-bendig-887848.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    /* text-align: right; */
+    color: var(--red-color);
+    /* position: absolute; */
+  
+}
+.box-p p{
+    position: relative;
+   left:340px ;
+   font-size: 20px;
+}
+.box-pp{
+    width: 500px;
+    height:600px;
+    background-image: url(../imag/tokyo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    /* text-align: right; */
+    color: var(--red-color);
+    /* position: absolute; */
+  
+}
+.box-pp p{
+    position: relative;
+   left:340px ;
+   font-size: 20px;
+}
+.box-ppp{
+    width: 500px;
+    height:600px;
+    background-image: url(../imag/pexels-flo-dahm-699466.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    /* text-align: right; */
+    color: var(--red-color);
+    /* position: absolute; */
+  
+}
+.box-ppp p{
+    position: relative;
+   left:390px ;
+   font-size: 20px;
+}
+.box-price{
+    font-size: 30px;
+}
+
+/*end price-package *******************************************************/ 
+ /* start Contact-us  *****************************************************/
+ 
+ .Contact-us{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;height: 300px;
+    background-color: var(--red-color);
+ }
+ .Contact-us p{
+   padding-left: 25px;
+ }
+ .icon-connect-contact-us{
+   padding-left: 25px;
+  
+ }
+ .icon-connect{
+   font-size: 20px;
+    margin: 5px;
+   color: var(--white-color);
+ }
+ /* end Contact-us  *****************************************************/
+
+
+
+
+ 
+ 
+ 

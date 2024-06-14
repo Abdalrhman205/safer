@@ -1,0 +1,47 @@
+:root{
+    --white-color:white;
+    --red-color:darkorange;
+    --black-color:black;
+    --back-icon-box-color:rgb(206, 201, 201);
+ 
+ 
+ 
+ }
+ *{
+    text-transform: capitalize;
+   
+    /* color:darkorange; */
+ }
+ span {
+   color: var(--red-color);
+   font-size: 20px;
+ }
+ 
+
+
+
+/* .package {
+    box-shadow: 2px 2px 3px 5px var(--red-color);
+    padding: 20px;
+ } */
+ /* start Contact-us  *****************************************************/
+ 
+ .Contact-us{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;height: 300px;
+    background-color: var(--red-color);
+ }
+ .Contact-us p{
+   padding-left: 25px;
+ }
+ .icon-connect-contact-us{
+   padding-left: 25px;
+  
+ }
+ .icon-connect{
+   font-size: 20px;
+    margin: 5px;
+   color: var(--white-color);
+ }
+ /* end Contact-us  *****************************************************/

@@ -1,0 +1,144 @@
+:root{
+    --white-color:white;
+    --red-color:darkorange;
+    --black-color:black;
+    --back-icon-box-color:rgb(206, 201, 201);
+ 
+ 
+ 
+ }
+ *{
+    text-transform: capitalize;
+   
+    /* color:darkorange; */
+ }
+ span {
+   color: var(--red-color);
+   font-size: 20px;
+ }
+ /* start nav *****************************************************/
+
+ .icon-title{
+  color: var(--red-color);
+  margin-left: 5px;
+ }
+ 
+ .nav{
+    background-color: var(--white-color);
+    width: 100%;height: 100px;
+    box-shadow: 0px 1px 3px var(--black-color) ;
+    background-size: cover;
+   
+    
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    color: var(--black-color);
+   
+ }
+ 
+ .icon-title{
+  color: var(--red-color);
+  margin-left: 5px;
+ }
+ .destination {
+    box-shadow: 2px 2px 3px 5px var(--red-color);
+    padding: 20px;
+ }
+ .section {
+    text-decoration: none;
+    color: var(--red-color);
+   
+    height: 30px;
+ 
+ } 
+ .section a{
+    text-decoration: none;
+    color: var(--red-color);
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 30px;
+ 
+ } 
+ .section {
+    text-decoration: none;
+    color: var(--red-color);
+   
+    height: 30px;
+ 
+ } 
+ .section a{
+    text-decoration: none;
+    color: var(--red-color);
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 30px;
+ 
+ } 
+ /* end nav *****************************************************/
+ /* start body *****************************************************/
+ .title-body{
+    text-align: center;
+ }
+ /* end body ****************************************************/
+ /* start body *********************************************************/
+ .picter-body{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   padding: 5px;
+ 
+ }
+ .bow-picter-picter-body{
+   width:300px ;height:400px ;
+   background-image: url(../imag/pexels-amar-saleem-77171.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   color: var(--back-icon-box-color);
+ }
+ /*  */
+ .bow-picter-picter-body-libya{
+   width:300px ;height:400px ;
+   background-image: url(../imag/photo_2023-08-31_00-48-30.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   color: var(--back-icon-box-color);
+ }
+ /*  */
+ .bow-picter-picter-body-dubai{
+   width:300px ;height:450px ;
+   background-image: url(../imag/pexels-shukhrat-umarov-1534411.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   color: var(--back-icon-box-color);
+ }
+ /*  */
+ .bow-picter-picter-body-greece{
+   width:300px ;height:500px ;
+   background-image: url(../imag/pexels-josiah-lewis-772689.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   color: var(--back-icon-box-color);
+ }
+ /* end body ***********************************************************************************/
+ /*start Contact-us  *********************************************************/
+ .Contact-us{
+   display: flex;
+   justify-content: space-around;
+   width: 100%;height: 300px;
+   background-color: var(--red-color);
+}
+.Contact-us p{
+  padding-left: 25px;
+}
+.icon-connect-contact-us{
+  padding-left: 25px;
+ 
+}
+.icon-connect{
+  font-size: 20px;
+   margin: 5px;
+  color: var(--white-color);
+}
+
+ /* end Contact-us *******************************************************************************/
